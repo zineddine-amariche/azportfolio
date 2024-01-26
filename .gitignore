@@ -88,3 +88,26 @@ package-lock.json
 android/
 ios/
 credentials.json
+
+
+# Dépendances
+/node_modules
+
+# Fichiers de build
+/.next
+/out
+
+# Fichiers d'environnement
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editeur de code
+.vscode
+*.gz
